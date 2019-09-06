@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/layoutPoster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewPoster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/textMovieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/firstMarginTop"
+            android:textSize="@dimen/paginationSize"
+
+            />
+
+        <TextView
+            android:id="@+id/textMovieYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="year"
+            android:textAlignment="center"
+            android:textSize="@dimen/paginationSize"
+            />
+
+        <TextView
+            android:id="@+id/textMovieRank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rank"
+            android:textAlignment="center"
+            android:textSize="@dimen/paginationSize"
+            />
+
+        <TextView
+            android:id="@+id/textTop"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:textAlignment="center"
+            android:textSize="@dimen/titleText"
+            android:gravity="bottom"
+            android:layout_marginBottom="@dimen/firstMarginTop"
+            android:text="TOP #"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorShapeBG"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/firstMarginTop"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/textMovieDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextWhite"
+            android:text="@string/app_name"
+            android:layout_marginBottom="@dimen/firstMarginTop"
+            />
+        <Button
+            android:id="@+id/buttonMovieMoreInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorTextWhite"
+            android:text="@string/buttonShowMore"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

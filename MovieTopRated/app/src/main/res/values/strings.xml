@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Movie Top Rated</string>
+    <string name="buttonShowMore">Show More</string>
+    <string name="overView">Overview</string>
+    <string name="fectureCrew">Cast Crew</string>
+    <string name="release">Release Information</string>
+    <string name="lenguage">Original Lenguage</string>
+    <string name="genres">Genres</string>
+</resources>

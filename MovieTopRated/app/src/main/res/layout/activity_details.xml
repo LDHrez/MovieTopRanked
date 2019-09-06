@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <ImageView
+        android:id="@+id/detailsBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorShapeBG"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24sp">
+
+
+                <TextView
+                    android:id="@+id/detailsTitleTex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/firstMarginTop"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/titleText" />
+
+                <TextView
+                    android:id="@+id/detailsScoreText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/titleText"
+                    android:textAlignment="textEnd"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/firstMarginTop"
+                    android:text="@string/overView"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/subtitleText" />
+
+                <TextView
+                    android:id="@+id/detailsOverviewText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/text" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/firstMarginTop"
+                    android:text="@string/fectureCrew"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/subtitleText" />
+
+                <TextView
+                    android:id="@+id/detailsCrewText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/text" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/firstMarginTop"
+                    android:text="@string/release"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/subtitleText" />
+
+                <TextView
+                    android:id="@+id/detailsReleaseText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/text" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/firstMarginTop"
+                    android:text="@string/lenguage"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/subtitleText" />
+
+                <TextView
+                    android:id="@+id/detailsLenguageText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/text" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/firstMarginTop"
+                    android:text="@string/genres"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/subtitleText" />
+
+                <TextView
+                    android:id="@+id/detailsGenresText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/text" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
